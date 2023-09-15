@@ -1,9 +1,12 @@
 @use 'partials/top-picks';
-
+@use'sass:color';
 @use 'partials/style-carte';
 @use 'partials/variables';
+@use 'partials/mixins/text';
 
 
 body{
     background-color: variables.$primary;
 }
+
+
